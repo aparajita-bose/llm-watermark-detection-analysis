@@ -2,6 +2,8 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aparajita-bose/llm-watermark-detection-analysis/blob/main/notebooks/watermark_detection_analysis.ipynb)
 
+[Read the analysis report (PDF)](report.pdf)
+
 An exploratory analysis of watermark detection for summaries generated with `google-t5/t5-small`. The experiment applies the [Kirchenbauer et al. (2023)](https://proceedings.mlr.press/v202/kirchenbauer23a.html) watermark implementation during generation, then tests whether its detector distinguishes source news articles from watermarked model summaries on CNN/DailyMail and XSum.
 
 > **Environment note:** The notebook was developed and executed in Google Colab (Python 3.11; T4 GPU selected in its metadata). Local execution has not been verified and is not guaranteed to work.
