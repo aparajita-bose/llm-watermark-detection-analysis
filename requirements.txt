@@ -1,0 +1,6 @@
+# Direct imports used by the Colab notebook. Local execution has not been verified.
+datasets
+matplotlib
+scikit-learn
+torch
+transformers
